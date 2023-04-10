@@ -1,0 +1,130 @@
+#lista {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.digimon {
+    background-color: aliceblue;
+    margin: 2px;
+    border: grey solid 2px;
+    border-radius: 3%;
+}
+
+body {
+    background-image: url(../img/digimon-rookies-courage-ricky-hoffman.jpg);
+}
+
+.nombre {
+    font-weight: bold;
+}
+
+.modal-body {
+    border: grey solid 2px;
+    border-radius: 3%;
+    text-align: center;
+    background-image: url(../img/dbwbmgc-e62fe5d1-f3c6-4be3-baea-031cecfd0e4e.png);
+}
+
+/*
+Pantalla Extra Large (>=992px)
+*/
+@media (min-width: 992px) {
+    #lista {
+        font-size: large;
+    }
+    .modal-body {
+        font-size: large;
+    }
+    body {
+        padding-top: 75px;
+    }
+
+    .digimon {
+        border-radius: 3%;
+        width: 23vw;
+    }
+
+    .imagen {
+        width: 18vw;
+    }
+}
+
+/*
+Pantalla Large (>=768px)
+*/
+@media (min-width: 768px) and (max-width: 992px) {
+    #lista {
+        font-size: large;
+    }
+    .modal-body {
+        font-size: large;
+    }
+    body {
+        padding-top: 75px;
+    }
+
+    .digimon {
+        border-radius: 3%;
+        width: 29vw;
+    }
+
+    .imagen {
+        width: 24vw;
+    }
+}
+
+/*
+Pantalla LSmall (>=576px)
+*/
+@media (min-width: 576px) and (max-width: 768px) {
+    #lista {
+        font-size: larger;
+    }
+    .modal-body {
+        font-size: larger;
+    }
+
+    body {
+        padding-top: 67px;
+    }
+
+    .digimon {
+        border-radius: 3%;
+        width: 41vw;
+    }
+
+    .imagen {
+        width: 36vw;
+    }
+}
+
+/*
+Pantalla Extra small (<576px)
+*/
+@media (max-width: 576px) {
+    #lista {
+        font-size: x-large;
+    }
+
+    .modal-body {
+        font-size: larger;
+    }
+
+    body {
+        padding-top: 67px;
+    }
+    .digimon {
+        border-radius: 3%;
+        width: 80vw;
+    }
+
+    #img-poster {
+        width: 70%;
+    }
+
+    .imagen {
+        width: 75vw;
+    }
+}
